@@ -1,0 +1,76 @@
+/* Base font style */
+body {
+    font-family: 'Lora', serif;
+    color: #4A4A4A; /* Soft gray for text */
+    background-color: #FAFAFA; /* Light off-white */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #2A2E5B; /* Deep navy blue */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #DADADA; /* Silver-gray text */
+}
+
+/* Header Section */
+.header-section {
+    background-color: #EAEAEA; /* Light silver */
+    color: #2A2E5B;
+    padding: 70px 0;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2A2E5B; /* Deep navy blue */
+}
+
+.header-section p {
+    font-size: 1.1rem;
+    color: #555555; /* Dark gray */
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+    transition: transform 0.3s ease;
+    border-radius: 10px; /* Smoother corners */
+}
+
+.card:hover {
+    transform: scale(1.05); /* More prominent hover effect */
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body h5 {
+    font-size: 1.3rem;
+    color: #2A2E5B; /* Deep navy blue for title */
+    font-weight: 600;
+}
+
+.btn-danger {
+    background-color: #B84662; /* Deep wine red */
+    border: none;
+    color: #FFF;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+/* Modal Styling */
+.modal-content {
+    background-color: #F5F5F5; /* Light gray background */
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    color: #2A2E5B;
+}

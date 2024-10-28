@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanush Jewellers - Exquisite Collection</title>
+    <!-- Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <!-- Link to the custom style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tanush Jewellers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header-section text-center">
+        <h1 class="display-4">Timeless Elegance</h1>
+        <p class="lead">Discover our curated collection of luxurious jewelry.</p>
+    </header>
+
+    <!-- Collection Section -->
+    <section class="container my-5">
+        <div class="row" id="collection-grid">
+            <!-- Jewelry designs will be dynamically added here -->
+        </div>
+    </section>
+
+    <!-- Add Design Modal -->
+    <div class="modal fade" id="addDesignModal" tabindex="-1" aria-labelledby="addDesignModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addDesignModalLabel">Add New Design</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addDesignForm">
+                        <div class="mb-3">
+                            <label for="designName" class="form-label">Design Name</label>
+                            <input type="text" class="form-control" id="designName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="designImage" class="form-label">Image URL</label>
+                            <input type="url" class="form-control" id="designImage" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Design</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts for Bootstrap and the custom script file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
